@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4125
+
+Github Reop: https://github.com/techlivezheng/tagbar-phpctags
+
+An addon plugin for vimscript#3465 using [phpctags](https://github.com/techlivezheng/phpctags) to generate php ctags index.
+
+Provide a much better PHP syntax outline support than the orginal ctags. Methods and properties even local variables assigned in functions are list in their own scope.
+
+Location of phpctags should be in system '$PATH' environment variable.
+
+Or, the locateion of phpctags can be configured in vimrc as such:
+
+let g:tagbar_phpctags_bin='PATH_TO_phpctags'
